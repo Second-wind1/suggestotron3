@@ -6,4 +6,6 @@ Rails.application.routes.draw do
       delete 'downvote'
     end
   end
- end
+  resources :abouts
+  root 'welcome#index'
+  end
